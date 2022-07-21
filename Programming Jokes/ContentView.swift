@@ -25,13 +25,8 @@ struct ContentView: View {
     }
     
     func getJokes() {
-        jokes.append(Joke(setup: "Why do programmers always get Christmas and Halloween mixed up?",
-                          punchline: "Because DEC 25 = OCT 31"))
-        jokes.append(Joke(setup: "How did the programmer die in the shower?",
-                          punchline: "She followed the shampoo bottle instructions: Lather. Rinse. Repeat."))
-        jokes.append(Joke(setup: "There are 10 types of people in the world",
-                          punchline: "Those who understand binary and those who don’t."))
-    }
+        let apiKey = "63284d5ce8mshe1ade5b1942d9b3p1472a5jsnf44aab4102fc"
+     }
 }
 
 struct ContentView_Previews: PreviewProvider {
